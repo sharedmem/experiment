@@ -1,0 +1,24 @@
+[project]
+name = "comparison"
+version = "0.0.0"
+description = "Comparison of Different Databases"
+requires-python = "==3.10.15"
+dependencies = [
+ "jupyterlab",
+ "pymysql",
+ "pymongo",
+ "cryptography",
+ "pandas",
+ "matplotlib>=3.9.2",
+]
+
+[tool.uv]
+dev-dependencies = []
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple"
+
+[tool.uv.sources]
+
+[tool.uv.workspace]
+members = ["comparison"]
