@@ -1,7 +1,7 @@
 [project]
 name = "comparison"
 version = "0.0.0"
-description = "Comparison of Different Databases"
+description = "Compare Different Databases Performance"
 requires-python = "==3.10.15"
 dependencies = [
  "jupyterlab",
@@ -10,6 +10,8 @@ dependencies = [
  "cryptography",
  "pandas",
  "matplotlib>=3.9.2",
+ "numpy",
+ "faker",
 ]
 
 [tool.uv]

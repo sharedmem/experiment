@@ -12,7 +12,6 @@ pandas = "*"
 matplotlib = "*"
 numpy = "*"
 faker = "*"
-psycopg = "==3.2.3"
 
 [dev-packages]
 
